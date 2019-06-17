@@ -1,0 +1,25 @@
+import React from 'react'
+
+/** @jsx jsx */
+import { css, jsx } from '@emotion/core'
+
+const noteIconStyles = css`
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  display: inline-block;
+`
+
+const textNote = css`
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIzMnB4IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48dGl0bGUvPjxkZXNjLz48ZGVmcy8+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSI+PGcgZmlsbD0iIzE1N0VGQiIgaWQ9Imljb24tNDQtbm90ZS10ZXh0Ij48cGF0aCBkPSJNNSwxMSBMNSwyNS45OTkxMzU4IEM1LDI3LjA5ODM3MjcgNS44OTI3NzEyLDI4IDYuOTk0MDYwMjgsMjggTDIxLDI4IEwyMSwyMS45OTgxMDE0IEMyMSwyMC44ODY3MDY0IDIxLjg5ODA4MDYsMjAgMjMuMDA1OTE5MSwyMCBMMjgsMjAgTDI4LDExIEw1LDExIEw1LDExIFogTTUsMTAgTDUsNy4wMDA4NjQyMiBDNSw1Ljg5NTgxNzQzIDUuOTAxNjI3MjYsNSA3LjAwMDg2NDIyLDUgTDI1Ljk5OTEzNTgsNSBDMjcuMTA0MTgyNiw1IDI4LDUuODkzMzk3MzMgMjgsNi45OTE4ODQxOSBMMjgsMTAgTDUsMTAgTDUsMTAgWiBNMjIsMjggTDIyLDIyLjAwMjkyOTMgQzIyLDIxLjQ0OTAyNjggMjIuNDUwOTc1MiwyMSAyMi45OTA3NzgsMjEgTDI4LDIxIEwyMiwyOCBMMjIsMjggWiBNOCwxNCBMOCwxNSBMMjUsMTUgTDI1LDE0IEw4LDE0IEw4LDE0IFogTTgsMTcgTDgsMTggTDI1LDE4IEwyNSwxNyBMOCwxNyBMOCwxNyBaIE04LDIwIEw4LDIxIEwxOSwyMSBMMTksMjAgTDgsMjAgTDgsMjAgWiBNOCwyMyBMOCwyNCBMMTksMjQgTDE5LDIzIEw4LDIzIEw4LDIzIFoiIGlkPSJub3RlLXRleHQiLz48L2c+PC9nPjwvc3ZnPg==');
+`
+
+
+
+export default function NoteIcon(props) {
+
+  return (
+    <div css={[noteIconStyles, textNote]}></div>
+  )
+
+}
