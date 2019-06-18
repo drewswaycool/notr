@@ -15,7 +15,7 @@ const noteTitle = css`
   margin: 0;
 `
 const noteText = css`
-  margin-left: 20px;
+  margin-left: 10px;
   display:inline-block;
 `
 
@@ -23,7 +23,7 @@ export default function SideBarNote(props) {
   const { title, desc, date } = props
   return (
     <div css={sideBarNoteStyles}>
-      <NoteIcon iconType='textNote' />
+      <NoteIcon />
       <div css={noteText}>
         <h3 css={noteTitle}>{title}</h3>
         <span>{desc}</span>
