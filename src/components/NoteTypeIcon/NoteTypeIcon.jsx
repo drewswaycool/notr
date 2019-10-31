@@ -3,7 +3,7 @@ import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 
-const noteIconStyles = css`
+const noteTypeIconStyles = css`
   width: 35px;
   height: 35px;
   display: inline-block;
@@ -12,10 +12,10 @@ const noteIconStyles = css`
   background-repeat: no-repeat;
 `
 
-export default function NoteIcon(props) {
+export default function NoteTypeIcon(props) {
 
   return (
-    <div css={noteIconStyles}></div>
+    <div css={noteTypeIconStyles}></div>
   )
 
 }
