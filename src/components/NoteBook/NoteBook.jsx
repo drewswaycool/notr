@@ -32,7 +32,7 @@ export default function NoteBook(props) {
       <div css={noPage}>
         <h3>Select or Create a Note</h3>
       </div>
-      {/* <EmptyNote /> */}
+      <EmptyNote />
       {/* <Note title="Note #1" description="This is an example note.." content="A note will have a title, a description and content." /> */}
       <div css={noteBookControls}>
         {/* <SaveButton /> */}
