@@ -1,5 +1,5 @@
 import React from 'react'
-import NoteIcon from '../NoteIcon/NoteIcon'
+import NoteTypeIcon from '../NoteTypeIcon/NoteTypeIcon'
 
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
@@ -23,7 +23,7 @@ export default function SideBarNote(props) {
   const { title, desc, date } = props
   return (
     <div css={sideBarNoteStyles}>
-      <NoteIcon />
+      <NoteTypeIcon />
       <div css={noteText}>
         <h3 css={noteTitle}>{title}</h3>
         <span>{desc}</span>
